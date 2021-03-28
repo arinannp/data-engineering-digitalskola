@@ -1,0 +1,42 @@
+1. Pertama, dari direktori induk berpindah ke direktori /Dokumen/Tugas 
+arinannp@arinannp-Satellite-M840:~$ cd ~/Dokumen/Tugas
+
+2. Cek apakah terdapat direktori atau file di dalam direktori Tugas
+arinannp@arinannp-Satellite-M840:~/Dokumen/Tugas$ ls
+
+3. Membuat file baru dengan nama config.txt
+arinannp@arinannp-Satellite-M840:~/Dokumen/Tugas$ touch config.txt
+
+4. Membaca isi file config.txt
+arinannp@arinannp-Satellite-M840:~/Dokumen/Tugas$ cat config.txt
+
+5. Mengedit atau menambahkan isi file config.txt dengan teks editor vim
+arinannp@arinannp-Satellite-M840:~/Dokumen/Tugas$ vim config.txt
+
+6. Membaca isi file config.txt
+arinannp@arinannp-Satellite-M840:~/Dokumen/Tugas$ cat config.txt 
+File ini merupakan tugas course Data Engineer di Digital Skola yang berisi spesifikasi laptop
+
+Ram = 4gb
+Hdd = 500gb
+OS = Linux Ubuntu 20.04 LTS
+Processor = Intel Core I5
+
+7. Copy file config.txt dengan nama config_new.txt
+arinannp@arinannp-Satellite-M840:~/Dokumen/Tugas$ cp config.txt config_new.txt
+
+8. Cek apakah terdapat direktori atau file di dalam direktori Tugas
+arinannp@arinannp-Satellite-M840:~/Dokumen/Tugas$ ls
+config_new.txt  config.txt
+
+9. Kembali ke direktori induk/awal
+arinannp@arinannp-Satellite-M840:~/Dokumen/Tugas$ cd
+
+10. Mencari semua file dengan format .txt di dalam direktori Dokumen/Tugas
+arinannp@arinannp-Satellite-M840:~$ find ~/Dokumen/Tugas -name *.txt
+/home/arinannp/Dokumen/Tugas/config_new.txt
+/home/arinannp/Dokumen/Tugas/config.txt
+
+11. Mencari baris yang memiliki kata OS di dalam file config.txt
+arinannp@arinannp-Satellite-M840:~$ cat ~/Dokumen/Tugas/config.txt | grep OS
+OS = Linux Ubuntu 20.04 LTS

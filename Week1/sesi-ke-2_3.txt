@@ -1,0 +1,12 @@
+1. Apa metodelogi yang paling umum untuk data engineer? Dan Jelaskan mengapa mereka menggunkan menggunakan metodelogi tersebut? 
+Answer: 
+Metodelogi yang paling umum untuk data engineer adalah automation (otomatisasi). Jika menganut konsep bagaimana data bisa dikatakan big data, yaitu jika memenuhi konsep volume, variety dan velocity. 
+Sumber data pada Perusahaan rata-rata sesuai dengan konsep big data. Sehingga tidak mungkin bagi para data engineer untuk mengelola data (baik itu structured atau unstructured data) secara manual. 
+Maka teknik atau metodelogi otomatisasi sangat dibutuhkan. 
+
+2. Mengapa bahasa Python bisa dikatakan sebagai Object-Oriented-Programming? 
+Answer: 
+Karena Python Language memiliki sebuah teknik pemrograman dimana semua hal dalam program dimodelkan seperti objek di dunia nyata. 
+Objek di dunia nyata memiliki ciri atau atribut dan juga aksi atau behaviour. Misalkan, Kita membuat sebuah class di dalam python. 
+Kemudian Kita memanggil class tersebut kedalam instance/object dan memberi nilai variabel instance tersebut, variabel instance dan nilainya merupakan atribut/ciri khas yang hanya dimiliki instance tersebut. 
+Sedangkan jika kita memanggil function pada class kedalam sebuah object/instance, maka ini merupakan aksi/behaviour yang bisa dilakukan oleh instance tersebut. Function yang dipanggil oleh object biasanya dinamakan method instance/object.
